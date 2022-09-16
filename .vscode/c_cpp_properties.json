@@ -13,7 +13,7 @@
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64",
-            "configurationProvider": "ms-vscode.cmake-tools" //Cmake Setting
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4
