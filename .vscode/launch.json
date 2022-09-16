@@ -12,7 +12,7 @@
             "args": [],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "Build with Clang"
-        }
+        },
 
 
         {
