@@ -5,7 +5,11 @@
         "regex": "cpp",
         "iosfwd": "cpp",
         "ostream": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "core": "cpp",
+        "eigen": "cpp",
+        "dense": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
+    
 }
