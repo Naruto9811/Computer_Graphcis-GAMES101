@@ -11,5 +11,6 @@
         "dense": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
+    "cmake.sourceDirectory": "${workspaceFolder}/Assignment 0/code_framework",
     
 }
