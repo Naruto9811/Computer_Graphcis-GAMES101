@@ -79,15 +79,15 @@ include CMakeFiles/Transformation.dir/flags.make
 CMakeFiles/Transformation.dir/main.cpp.o: CMakeFiles/Transformation.dir/flags.make
 CMakeFiles/Transformation.dir/main.cpp.o: /Users/peterliu/Code/GAMES101/Assignment\ 0/code_framework/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peterliu/Code/GAMES101/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Transformation.dir/main.cpp.o"
-	/usr/local/bin/x86_64-apple-darwin20-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Transformation.dir/main.cpp.o -c "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Transformation.dir/main.cpp.o -c "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp"
 
 CMakeFiles/Transformation.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Transformation.dir/main.cpp.i"
-	/usr/local/bin/x86_64-apple-darwin20-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" > CMakeFiles/Transformation.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" > CMakeFiles/Transformation.dir/main.cpp.i
 
 CMakeFiles/Transformation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Transformation.dir/main.cpp.s"
-	/usr/local/bin/x86_64-apple-darwin20-g++-12 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" -o CMakeFiles/Transformation.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" -o CMakeFiles/Transformation.dir/main.cpp.s
 
 # Object files for target Transformation
 Transformation_OBJECTS = \

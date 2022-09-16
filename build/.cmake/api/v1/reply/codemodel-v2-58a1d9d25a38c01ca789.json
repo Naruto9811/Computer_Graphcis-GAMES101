@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "Transformation",
+					"name" : "EXE_PROGRAM",
 					"targetIndexes" : 
 					[
 						0
@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Transformation::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Transformation-Debug-f46d0fec32e35b4e0be5.json",
-					"name" : "Transformation",
+					"id" : "EXE_PROGRAM::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EXE_PROGRAM-Debug-a0d3e124c23a897bdb15.json",
+					"name" : "EXE_PROGRAM",
 					"projectIndex" : 0
 				}
 			]

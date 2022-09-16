@@ -33,8 +33,12 @@ int main(){
     std::cout << "Example of matrix \n";
     // matrix definition
     Eigen::Matrix3f i,j;
-    i << 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0;
-    j << 2.0, 3.0, 1.0, 4.0, 6.0, 5.0, 9.0, 7.0, 8.0;
+    i << 1.0, 2.0, 3.0, 
+         4.0, 5.0, 6.0,
+         7.0, 8.0, 9.0;
+    j << 2.0, 3.0, 1.0,
+         4.0, 6.0, 5.0,
+         9.0, 7.0, 8.0;
     // matrix output
     std::cout << "Example of output \n";
     std::cout << i << std::endl;
@@ -42,6 +46,12 @@ int main(){
     // matrix scalar multiply i * 2.0
     // matrix multiply i * j
     // matrix multiply vector i * v
+
+
+    // Test for Dynamic Parameters of Matrix Templates
+    int row, column;
+    std::cin >> row >> column;
+    Eigen::Matrix<float, Eigen::Dynamic, Eigen::Dynamic> dynamic_matrix;
 
 
     /* 

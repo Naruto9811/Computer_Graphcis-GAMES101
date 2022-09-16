@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Transformation"
+			"path" : "EXE_PROGRAM"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "Transformation::@6890427a1f51a3e7e1df",
+	"id" : "EXE_PROGRAM::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -75,8 +75,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Transformation",
-	"nameOnDisk" : "Transformation",
+	"name" : "EXE_PROGRAM",
+	"nameOnDisk" : "EXE_PROGRAM",
 	"paths" : 
 	{
 		"build" : ".",

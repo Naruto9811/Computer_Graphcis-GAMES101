@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/peterliu/Code/GAMES101/build",
-  "command": "/usr/local/bin/x86_64-apple-darwin20-g++-12  -I/usr/local/include/eigen3/Eigen -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/Transformation.dir/main.cpp.o -c \"/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp\"",
+  "command": "/usr/bin/clang++  -I/usr/local/include/eigen3/Eigen -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/EXE_PROGRAM.dir/main.cpp.o -c \"/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp\"",
   "file": "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp"
 }
 ]
