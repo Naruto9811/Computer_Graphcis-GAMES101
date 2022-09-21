@@ -67,7 +67,7 @@ RM = /usr/local/Cellar/cmake/3.19.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework"
+CMAKE_SOURCE_DIR = /Users/peterliu/Code/GAMES101/Homework0/code_framework
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/peterliu/Code/GAMES101/build

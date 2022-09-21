@@ -167,10 +167,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/clang++"
 		},
 		{
@@ -263,10 +263,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/clang"
 		},
 		{
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework"
+			"value" : "/Users/peterliu/Code/GAMES101/Homework0/code_framework"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework"
+			"value" : "/Users/peterliu/Code/GAMES101/Homework0/code_framework"
 		},
 		{
 			"name" : "Eigen3_DIR",
@@ -1176,30 +1176,6 @@
 			],
 			"type" : "PATH",
 			"value" : ""
-		},
-		{
-			"name" : "Transformation_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/peterliu/Code/GAMES101/build"
-		},
-		{
-			"name" : "Transformation_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework"
 		}
 	],
 	"kind" : "cache",

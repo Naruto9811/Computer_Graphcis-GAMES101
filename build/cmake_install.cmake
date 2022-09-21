@@ -1,4 +1,4 @@
-# Install script for directory: /Users/peterliu/Code/GAMES101/Assignment 0/code_framework
+# Install script for directory: /Users/peterliu/Code/GAMES101/Homework0/code_framework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

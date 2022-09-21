@@ -30,8 +30,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=/usr/bin/clang++
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -48,8 +48,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/clang
+//C compiler
+CMAKE_C_COMPILER:STRING=/usr/bin/clang
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -220,19 +220,13 @@ EXECUTABLE_OUTPUT_PATH:PATH=
 EXE_PROGRAM_BINARY_DIR:STATIC=/Users/peterliu/Code/GAMES101/build
 
 //Value Computed by CMake
-EXE_PROGRAM_SOURCE_DIR:STATIC=/Users/peterliu/Code/GAMES101/Assignment 0/code_framework
+EXE_PROGRAM_SOURCE_DIR:STATIC=/Users/peterliu/Code/GAMES101/Homework0/code_framework
 
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/local/share/eigen3/cmake
 
 //Single output directory for building all libraries.
 LIBRARY_OUTPUT_PATH:PATH=
-
-//Value Computed by CMake
-Transformation_BINARY_DIR:STATIC=/Users/peterliu/Code/GAMES101/build
-
-//Value Computed by CMake
-Transformation_SOURCE_DIR:STATIC=/Users/peterliu/Code/GAMES101/Assignment 0/code_framework
 
 
 ########################
@@ -309,7 +303,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/Users/peterliu/Code/GAMES101/Assignment 0/code_framework
+CMAKE_HOME_DIRECTORY:INTERNAL=/Users/peterliu/Code/GAMES101/Homework0/code_framework
 //ADVANCED property for variable: CMAKE_INSTALL_NAME_TOOL
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

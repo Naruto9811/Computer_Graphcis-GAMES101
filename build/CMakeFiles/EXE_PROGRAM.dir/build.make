@@ -62,7 +62,7 @@ RM = /usr/local/Cellar/cmake/3.19.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework"
+CMAKE_SOURCE_DIR = /Users/peterliu/Code/GAMES101/Homework0/code_framework
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/peterliu/Code/GAMES101/build
@@ -77,17 +77,17 @@ include CMakeFiles/EXE_PROGRAM.dir/progress.make
 include CMakeFiles/EXE_PROGRAM.dir/flags.make
 
 CMakeFiles/EXE_PROGRAM.dir/main.o: CMakeFiles/EXE_PROGRAM.dir/flags.make
-CMakeFiles/EXE_PROGRAM.dir/main.o: /Users/peterliu/Code/GAMES101/Assignment\ 0/code_framework/main.cpp
+CMakeFiles/EXE_PROGRAM.dir/main.o: /Users/peterliu/Code/GAMES101/Homework0/code_framework/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peterliu/Code/GAMES101/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EXE_PROGRAM.dir/main.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EXE_PROGRAM.dir/main.o -c "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EXE_PROGRAM.dir/main.o -c /Users/peterliu/Code/GAMES101/Homework0/code_framework/main.cpp
 
 CMakeFiles/EXE_PROGRAM.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EXE_PROGRAM.dir/main.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" > CMakeFiles/EXE_PROGRAM.dir/main.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/peterliu/Code/GAMES101/Homework0/code_framework/main.cpp > CMakeFiles/EXE_PROGRAM.dir/main.i
 
 CMakeFiles/EXE_PROGRAM.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EXE_PROGRAM.dir/main.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" -o CMakeFiles/EXE_PROGRAM.dir/main.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/peterliu/Code/GAMES101/Homework0/code_framework/main.cpp -o CMakeFiles/EXE_PROGRAM.dir/main.s
 
 # Object files for target EXE_PROGRAM
 EXE_PROGRAM_OBJECTS = \
@@ -112,6 +112,6 @@ CMakeFiles/EXE_PROGRAM.dir/clean:
 .PHONY : CMakeFiles/EXE_PROGRAM.dir/clean
 
 CMakeFiles/EXE_PROGRAM.dir/depend:
-	cd /Users/peterliu/Code/GAMES101/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework" "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework" /Users/peterliu/Code/GAMES101/build /Users/peterliu/Code/GAMES101/build /Users/peterliu/Code/GAMES101/build/CMakeFiles/EXE_PROGRAM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/peterliu/Code/GAMES101/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/peterliu/Code/GAMES101/Homework0/code_framework /Users/peterliu/Code/GAMES101/Homework0/code_framework /Users/peterliu/Code/GAMES101/build /Users/peterliu/Code/GAMES101/build /Users/peterliu/Code/GAMES101/build/CMakeFiles/EXE_PROGRAM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/EXE_PROGRAM.dir/depend
 
