@@ -76,27 +76,27 @@ include CMakeFiles/EXE_PROGRAM.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/EXE_PROGRAM.dir/flags.make
 
-CMakeFiles/EXE_PROGRAM.dir/main.cpp.o: CMakeFiles/EXE_PROGRAM.dir/flags.make
-CMakeFiles/EXE_PROGRAM.dir/main.cpp.o: /Users/peterliu/Code/GAMES101/Assignment\ 0/code_framework/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peterliu/Code/GAMES101/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EXE_PROGRAM.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EXE_PROGRAM.dir/main.cpp.o -c "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp"
+CMakeFiles/EXE_PROGRAM.dir/main.o: CMakeFiles/EXE_PROGRAM.dir/flags.make
+CMakeFiles/EXE_PROGRAM.dir/main.o: /Users/peterliu/Code/GAMES101/Assignment\ 0/code_framework/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/peterliu/Code/GAMES101/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EXE_PROGRAM.dir/main.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EXE_PROGRAM.dir/main.o -c "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp"
 
-CMakeFiles/EXE_PROGRAM.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EXE_PROGRAM.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" > CMakeFiles/EXE_PROGRAM.dir/main.cpp.i
+CMakeFiles/EXE_PROGRAM.dir/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EXE_PROGRAM.dir/main.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" > CMakeFiles/EXE_PROGRAM.dir/main.i
 
-CMakeFiles/EXE_PROGRAM.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EXE_PROGRAM.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" -o CMakeFiles/EXE_PROGRAM.dir/main.cpp.s
+CMakeFiles/EXE_PROGRAM.dir/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EXE_PROGRAM.dir/main.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/peterliu/Code/GAMES101/Assignment 0/code_framework/main.cpp" -o CMakeFiles/EXE_PROGRAM.dir/main.s
 
 # Object files for target EXE_PROGRAM
 EXE_PROGRAM_OBJECTS = \
-"CMakeFiles/EXE_PROGRAM.dir/main.cpp.o"
+"CMakeFiles/EXE_PROGRAM.dir/main.o"
 
 # External object files for target EXE_PROGRAM
 EXE_PROGRAM_EXTERNAL_OBJECTS =
 
-EXE_PROGRAM: CMakeFiles/EXE_PROGRAM.dir/main.cpp.o
+EXE_PROGRAM: CMakeFiles/EXE_PROGRAM.dir/main.o
 EXE_PROGRAM: CMakeFiles/EXE_PROGRAM.dir/build.make
 EXE_PROGRAM: CMakeFiles/EXE_PROGRAM.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/peterliu/Code/GAMES101/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable EXE_PROGRAM"
