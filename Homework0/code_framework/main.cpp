@@ -2,8 +2,7 @@
 #include<Eigen>
 #include<iostream>
 
-int main(){
-
+int main(){ 
     // Basic Example of cpp
     std::cout << "Example of cpp \n";
     float a = 1.0, b = 2.0;
@@ -12,6 +11,7 @@ int main(){
     std::cout << std::sqrt(b) << std::endl;
     std::cout << std::acos(-1) << std::endl;
     std::cout << std::sin(30.0/180.0*acos(-1)) << std::endl;
+
 
     // Example of vector
     std::cout << "Example of vector \n";
@@ -48,12 +48,15 @@ int main(){
     // matrix multiply vector i * v
 
 
+    
     // Test for Dynamic Parameters of Matrix Templates
     int row, column;
     std::cin >> row >> column;
     Eigen::Matrix<float, Eigen::Dynamic, Eigen::Dynamic> dynamic_matrix;
-
-
+    
+     
+    std::cout << dynamic_matrix;
+    
     /* 
     * PA 0
     */

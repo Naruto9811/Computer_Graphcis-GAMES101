@@ -7,8 +7,11 @@
         "ostream": "cpp",
         "typeinfo": "cpp",
         "core": "cpp",
-        "eigen": "cpp",
-        "dense": "cpp"
+        "Eigen": "cpp",
+        "dense": "cpp",
+        "istream": "cpp",
+        "sparse": "cpp",
+        "cmath": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "cmake.sourceDirectory": "${workspaceFolder}/Homework0/code_framework",

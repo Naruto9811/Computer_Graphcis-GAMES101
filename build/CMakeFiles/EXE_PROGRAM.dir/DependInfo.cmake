@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/peterliu/Code/GAMES101/Homework0/code_framework/main.cpp" "/Users/peterliu/Code/GAMES101/build/CMakeFiles/EXE_PROGRAM.dir/main.o"
+  "/Users/peterliu/Code/GAMES101/Homework0/code_framework/test.cpp" "/Users/peterliu/Code/GAMES101/build/CMakeFiles/EXE_PROGRAM.dir/test.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include/eigen3/Eigen"
+  "/usr/local/Cellar/eigen/3.4.0_1/include/eigen3/Eigen"
   )
 
 # Targets to which this target links.

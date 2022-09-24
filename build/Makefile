@@ -142,20 +142,32 @@ EXE_PROGRAM/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EXE_PROGRAM.dir/build.make CMakeFiles/EXE_PROGRAM.dir/build
 .PHONY : EXE_PROGRAM/fast
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
 # target to build an object file
-main.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EXE_PROGRAM.dir/build.make CMakeFiles/EXE_PROGRAM.dir/main.o
-.PHONY : main.o
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EXE_PROGRAM.dir/build.make CMakeFiles/EXE_PROGRAM.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
 
 # target to preprocess a source file
-main.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EXE_PROGRAM.dir/build.make CMakeFiles/EXE_PROGRAM.dir/main.i
-.PHONY : main.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EXE_PROGRAM.dir/build.make CMakeFiles/EXE_PROGRAM.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
 
 # target to generate assembly for a file
-main.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EXE_PROGRAM.dir/build.make CMakeFiles/EXE_PROGRAM.dir/main.s
-.PHONY : main.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EXE_PROGRAM.dir/build.make CMakeFiles/EXE_PROGRAM.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -166,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EXE_PROGRAM"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 
